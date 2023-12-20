@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e9d9e885b739921decb75f8bc49c1158 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e9d9e885b739921decb75f8bc49c1158" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e9d9e885b739921decb75f8bc49c1158 = L.map(
+                "map_e9d9e885b739921decb75f8bc49c1158",
+                {
+                    center: [23.57720301030994, 87.23297952732543],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 20,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9e907b5ab05887d1e190b477924e4842 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e9d9e885b739921decb75f8bc49c1158);
+        
+    
+            var feature_group_4eadeb088e9f78c398f0c99a13224a33 = L.featureGroup(
+                {}
+            ).addTo(map_e9d9e885b739921decb75f8bc49c1158);
+        
+    
+            var marker_f295426971150c7a8df3c9bdeef56b0d = L.marker(
+                [23.57720301030994, 87.23297952732543],
+                {}
+            ).addTo(feature_group_4eadeb088e9f78c398f0c99a13224a33);
+        
+    
+            var icon_1e40d6039810ca91399ef233eef72bf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f295426971150c7a8df3c9bdeef56b0d.setIcon(icon_1e40d6039810ca91399ef233eef72bf7);
+        
+    
+        var popup_00de03f32aa45bb2cd48a38d9898a115 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66584b1b453709da3445007abfd713bb = $(`<div id="html_66584b1b453709da3445007abfd713bb" style="width: 100.0%; height: 100.0%;"><h4><b>Home<b></h4></div>`)[0];
+                popup_00de03f32aa45bb2cd48a38d9898a115.setContent(html_66584b1b453709da3445007abfd713bb);
+            
+        
+
+        marker_f295426971150c7a8df3c9bdeef56b0d.bindPopup(popup_00de03f32aa45bb2cd48a38d9898a115)
+        ;
+
+        
+    
+    
+            var marker_d407e61eabfcdce7097df9d67e6d2f68 = L.marker(
+                [23.57497263693226, 87.23204313290005],
+                {}
+            ).addTo(feature_group_4eadeb088e9f78c398f0c99a13224a33);
+        
+    
+            var icon_2a318f45b1ae998614e500020ae4554e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shopping-cart", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d407e61eabfcdce7097df9d67e6d2f68.setIcon(icon_2a318f45b1ae998614e500020ae4554e);
+        
+    
+        var popup_d956ca045ba8619230a8c141477e3eda = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_54fd9855df8ac506df23457a00d9ff8e = $(`<div id="html_54fd9855df8ac506df23457a00d9ff8e" style="width: 100.0%; height: 100.0%;"><h3><b>The Mobile Gallery</b></h3><br><b>Product Name:</b> Samsung Galaxy M34 5G (Prism Silver,8GB,256GB), 120Hz sAMOLED Display, 50MP Triple No Shake Cam, 6000 mAh Battery<br><b>Price:</b> 16000</div>`)[0];
+                popup_d956ca045ba8619230a8c141477e3eda.setContent(html_54fd9855df8ac506df23457a00d9ff8e);
+            
+        
+
+        marker_d407e61eabfcdce7097df9d67e6d2f68.bindPopup(popup_d956ca045ba8619230a8c141477e3eda)
+        ;
+
+        
+    
+    
+            var marker_1832e85e1f2d4dd3b9dc8afc4fb70687 = L.marker(
+                [23.57515973962461, 87.23263003807743],
+                {}
+            ).addTo(feature_group_4eadeb088e9f78c398f0c99a13224a33);
+        
+    
+            var icon_89dc51649fb7a3d183c169162522825e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shopping-cart", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1832e85e1f2d4dd3b9dc8afc4fb70687.setIcon(icon_89dc51649fb7a3d183c169162522825e);
+        
+    
+        var popup_89c2ccb112d704b09778cca078d49936 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9247f5c705500665a42fff96057fac17 = $(`<div id="html_9247f5c705500665a42fff96057fac17" style="width: 100.0%; height: 100.0%;"><h3><b>Samsung Store</b></h3><br><b>Product Name:</b> Samsung Galaxy M34 5G (Prism Silver,8GB,256GB), 120Hz sAMOLED Display, 50MP Triple No Shake Cam, 6000 mAh Battery<br><b>Price:</b> 17000</div>`)[0];
+                popup_89c2ccb112d704b09778cca078d49936.setContent(html_9247f5c705500665a42fff96057fac17);
+            
+        
+
+        marker_1832e85e1f2d4dd3b9dc8afc4fb70687.bindPopup(popup_89c2ccb112d704b09778cca078d49936)
+        ;
+
+        
+    
+    
+            var marker_0327237401d3c1c08ad774651dcf551c = L.marker(
+                [23.575785362286805, 87.22912774523824],
+                {}
+            ).addTo(feature_group_4eadeb088e9f78c398f0c99a13224a33);
+        
+    
+            var icon_3ea9b11b50c1ab24dca006eb15783516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shopping-cart", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0327237401d3c1c08ad774651dcf551c.setIcon(icon_3ea9b11b50c1ab24dca006eb15783516);
+        
+    
+        var popup_f52fbaeb4eb5b82ccca1363bb7cd8a88 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3f64e8c54e1b517124c633c27a79a209 = $(`<div id="html_3f64e8c54e1b517124c633c27a79a209" style="width: 100.0%; height: 100.0%;"><h3><b>Maa Telecom</b></h3><br><b>Product Name:</b> Samsung Galaxy M34 5G (Prism Silver,8GB,256GB), 120Hz sAMOLED Display, 50MP Triple No Shake Cam, 6000 mAh Battery<br><b>Price:</b> 19000</div>`)[0];
+                popup_f52fbaeb4eb5b82ccca1363bb7cd8a88.setContent(html_3f64e8c54e1b517124c633c27a79a209);
+            
+        
+
+        marker_0327237401d3c1c08ad774651dcf551c.bindPopup(popup_f52fbaeb4eb5b82ccca1363bb7cd8a88)
+        ;
+
+        
+    
+    
+            var marker_5a5ede0398606136aed712a157c642b0 = L.marker(
+                [23.575966616918183, 87.23137329546991],
+                {}
+            ).addTo(feature_group_4eadeb088e9f78c398f0c99a13224a33);
+        
+    
+            var icon_2c17b8cbc8745ccc4c6e4f9fcf9108d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "shopping-cart", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5a5ede0398606136aed712a157c642b0.setIcon(icon_2c17b8cbc8745ccc4c6e4f9fcf9108d2);
+        
+    
+        var popup_99b2620fdb060349a5789d7ef2e948db = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ed5a7bf770c29cd703bcb3228e7c41cc = $(`<div id="html_ed5a7bf770c29cd703bcb3228e7c41cc" style="width: 100.0%; height: 100.0%;"><h3><b>Prakash Digitals</b></h3><br><b>Product Name:</b> Samsung Galaxy M34 5G (Prism Silver,8GB,256GB), 120Hz sAMOLED Display, 50MP Triple No Shake Cam, 6000 mAh Battery<br><b>Price:</b> 19000</div>`)[0];
+                popup_99b2620fdb060349a5789d7ef2e948db.setContent(html_ed5a7bf770c29cd703bcb3228e7c41cc);
+            
+        
+
+        marker_5a5ede0398606136aed712a157c642b0.bindPopup(popup_99b2620fdb060349a5789d7ef2e948db)
+        ;
+
+        
+    
+</script>
+</html>
